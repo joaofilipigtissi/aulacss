@@ -1,0 +1,51 @@
+.principal
+        {
+            position: relative;
+            width: 500px;
+            height: 250px;
+            background-color: silver;
+            border-style: solid;
+            border-width: 5px;
+            border-color: red;
+            border-radius: 20px; /*bota a bordinha arredondada*/
+            /* padding-left: 50px; margem
+               padding-top: 25px;  margem*/
+            display: flex;                      /*alinhar tudo no centro*/
+            flex-direction: row;                /*alinhar tudo no centro*/
+            justify-content: space-around;      /*alinhar tudo no centro*/
+            justify-items: center;              /*alinhar tudo no centro*/
+            align-content: center;              /*alinhar tudo no centro*/
+            align-items: center;                /*alinhar tudo no centro*/
+        }
+        .interna
+        {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border-radius: 50px;
+        }
+        .menu:hover
+        {
+            background-color: blue;
+            transition: 0.5s; /*delay pra mudar de cor quando passar o cursor*/
+        }
+
+        .menu
+        {
+            width: 150px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            position: absolute;
+            left: 175px; /*500 - 250 (metade) = 250, depois metade da largura do menu tb (metade de 150 = 75), entao 250 - 75 = 175*/
+            top: 0px;
+        }
+        .centralizado
+        {
+            display: flex;               /*alinhar tudo no centro*/ 
+            flex-direction: row;         /*alinhar tudo no centro*/ 
+            justify-content: center;     /*alinhar tudo no centro*/ 
+            justify-items: center;       /*alinhar tudo no centro*/
+            align-content: center;       /*alinhar tudo no centro*/
+            align-items: center;         /*alinhar tudo no centro*/ 
+        }
